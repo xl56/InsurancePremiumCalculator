@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             spinnerAge.setSelection(0)
             radioGroup.clearCheck()
+            textView7.setText("")
+            checkBox.isChecked = false
+            
         }
 
     }
